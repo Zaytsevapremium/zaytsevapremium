@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ZAYTSEVA PREMIUM / МЕНЮ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Шапка приложения -->
+        <header class="header">
+            <h1>ZAYTSEVA PREMIUM / МЕНЮ</h1>
+        </header>
+
+        <!-- Меню разделов (сетка 2x8) -->
+        <nav class="menu">
+            <div class="menu-item" data-submenu="business">
+                <i class="fas fa-briefcase icon"></i>
+                <span class="menu-text">Бизнес</span>
+                <span class="submenu-count"></span>
+            </div>
+            <div class="menu-item" data-submenu="media">
+                <i class="fas fa-camera icon"></i>
+                <span class="menu-text">Медийность</span>
+                <span class="submenu-count"></span>
+            </div>
+            <div class="menu-item" data-submenu="beauty">
+                <i class="fas fa-heart icon"></i>
+                <span class="menu-text">Красота</span>
+                <span class="submenu-count"></span>
+            </div>
+            <div class="menu-item" data-submenu="techniques">
+                <i class="fas fa-gem icon"></i>
+                <span class="menu-text">Техники</span>
+                <span class="submenu-count"></span>
+            </div>
+            <div class="menu-item" data-submenu="podcasts">
+                <i class="fas fa-podcast icon"></i>
+                <span class="menu-text">Подкасты</span>
+                <span class="submenu-count"></span>
+            </div>
+            <div class="menu-item" data-submenu="sport">
+                <i class="fas fa-dumbbell icon"></i>
+                <span class="menu-text">Спорт</span>
+                <span class="submenu-count"></span>
+            </div>
+            <div class="menu-item" data-submenu="discussions">
+                <i class="fas fa-comments icon"></i>
+                <span class="menu-text">Обсуждения</span>
+                <span class="submenu-count"></span>
+            </div>
+            <div class="menu-item" data-submenu="support">
+                <i class="fas fa-headset icon"></i>
+                <span class="menu-text">Поддержка</span>
+                <span class="submenu-count"></span>
+            </div>
+        </nav>
+
+        <!-- Модальное окно для подменю -->
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="modal-title"></h2>
+                    <button class="modal-close"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="modal-body" id="modal-body"></div>
+            </div>
+        </div>
+    </div>
+    <canvas id="heart-canvas" class="heart-canvas"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
