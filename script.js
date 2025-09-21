@@ -24,11 +24,10 @@ const submenuData = {
         { text: 'Ежедневный саморазбор', href: 'https://t.me/c/2343438456/34' }
     ],
     podcasts: [
-        { text: 'Канал: Подкасты 1', href: 'https://t.me/+cijuiNgQiXg3MWM6' }
+        
     ],
     sport: [
-        { text: 'Канал: Спорт 1', href: 'https://t.me/+cijuiNgQiXg3MWM6' },
-        { text: 'Канал: Спорт 2', href: 'https://t.me/+cijuiNgQiXg3MWM6' }
+        
     ],
     discussions: [
         { text: 'Переход в обсуждения канала', href: 'https://t.me/+80PEsl1e7y03ZTgy' }        
@@ -78,3 +77,4 @@ modal.addEventListener('click', (e) => {
         modal.classList.remove('active');
     }
 });
+
