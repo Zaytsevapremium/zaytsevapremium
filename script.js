@@ -4,20 +4,24 @@ window.Telegram.WebApp.ready();
 // Данные подменю
 const submenuData = {
     business: [
-        { text: 'Канал: Бизнес 1', href: 'https://t.me/+cijuiNgQiXg3MWM6' },
-        { text: 'Канал: Бизнес 2', href: 'https://t.me/+cijuiNgQiXg3MWM6' }
+        { text: 'Введение. Мой опыт.', href: 'https://t.me/c/2343438456/10' },
+        { text: 'Команда', href: 'https://t.me/c/2343438456/11' },
+        { text: 'Клиенты', href: 'https://t.me/c/2343438456/12' },
+        { text: 'Маркетинг', href: 'https://t.me/c/2343438456/13' },
+        { text: 'Насмотренность', href: 'https://t.me/c/2343438456/19' }
     ],
-    media: [
-        { text: 'Канал: Медиа 1', href: 'https://t.me/+cijuiNgQiXg3MWM6' },
-        { text: 'Канал: Медиа 2', href: 'https://t.me/+cijuiNgQiXg3MWM6' },
-        { text: 'Канал: Медиа 3', href: 'https://t.me/+cijuiNgQiXg3MWM6' }
+    media: [        
+        { text: '4 урока: контент, прогрев, продукт ', href: 'https://t.me/c/2343438456/4' }
     ],
     beauty: [
-        { text: 'Канал: Красота 1', href: 'https://t.me/+cijuiNgQiXg3MWM6' }
+        { text: 'Косметика на каждый день', href: 'https://t.me/c/2343438456/26' },
+        { text: 'Могу/хочу', href: 'https://t.me/c/2343438456/27' },
+        { text: 'Макияж на каждый день', href: 'https://t.me/c/2343438456/20' }
     ],
     techniques: [
-        { text: 'Канал: Техники 1', href: 'https://t.me/+cijuiNgQiXg3MWM6' },
-        { text: 'Канал: Техники 2', href: 'https://t.me/+cijuiNgQiXg3MWM6' }
+        { text: '16 ассоциаций', href: 'https://t.me/c/2343438456/28' },
+        { text: 'Глобальный саморазбор', href: 'https://t.me/c/2343438456/35' },
+        { text: 'Ежедневный саморазбор', href: 'https://t.me/c/2343438456/34' }
     ],
     podcasts: [
         { text: 'Канал: Подкасты 1', href: 'https://t.me/+cijuiNgQiXg3MWM6' }
@@ -27,12 +31,10 @@ const submenuData = {
         { text: 'Канал: Спорт 2', href: 'https://t.me/+cijuiNgQiXg3MWM6' }
     ],
     discussions: [
-        { text: 'Канал: Обсуждения 1', href: 'https://t.me/+cijuiNgQiXg3MWM6' },
-        { text: 'Канал: Обсуждения 1', href: 'https://t.me/+cijuiNgQiXg3MWM6' },
-        { text: 'Канал: Обсуждения 2', href: 'https://t.me/+cijuiNgQiXg3MWM6' }
+        { text: 'Переход в обсуждения канала', href: 'https://t.me/+80PEsl1e7y03ZTgy' }        
     ],
     support: [
-        { text: 'Канал: Служба поддержки', href: 'https://t.me/support' }
+        { text: 'Служба поддержки', href: 'https://t.me/zaytsevapremiumhelp' }
     ]
 };
 
