@@ -27,7 +27,7 @@ const submenuData = {
         
     ],
     sport: [
-        
+        { text: 'Успех в бизнесе', href: 'https://t.me/c/2343438456/39' }
     ],
     discussions: [
         { text: 'Переход в обсуждения канала', href: 'https://t.me/+80PEsl1e7y03ZTgy' }        
@@ -77,4 +77,5 @@ modal.addEventListener('click', (e) => {
         modal.classList.remove('active');
     }
 });
+
 
